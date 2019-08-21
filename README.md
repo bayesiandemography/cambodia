@@ -13,15 +13,15 @@ This repository contains the R code for modelling and creating graphs for the pa
 
 The model and graphs in the paper can be reproduced by running the code in file "run_all.R", which in turn runs code in the "src" folder.
 
-For the code to run, you will need to have the packages **coda**, **dplyr**, and **latticeExtra** installed on your computer. These can both be installed from CRAN.
+For the code to run, you will need to have the packages **coda**, **dplyr**, and **latticeExtra** installed on your computer. These can all be installed from CRAN.
 
-You will also need to have the packages **dembase** and **demest**. These can be installed from GitHub using
+You will also need to have the packages **dembase** and **demest** installed. These can be installed from GitHub using
 ``` r
 devtools::install_github("dembase")
 devtools::install_github("demest")
 ```
 
-The model database "model.est" and the figures are all created in folder "out".
+Running the code creates the database "model.est" and five pdf files in the folder "out".
 
 
 
